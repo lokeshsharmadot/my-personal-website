@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loginForm">
+        <h2>Login</h2>
+        <form id="login">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <button type="button" onclick="checkLogin()">Submit</button>
+        </form>
+    </div>
+
+    <div id="personalDetails" style="display:none;">
+        <header>
+            <h1>My Personal Details</h1>
+        </header>
+
+        <section>
+            <h2>About Me</h2>
+            <p>Name: John Doe</p>
+            <p>Age: 25</p>
+            <p>Location: New York</p>
+            <p>Email: johndoe@email.com</p>
+        </section>
+
+        <footer>
+            <p>Created by John Doe &copy; 2025</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
